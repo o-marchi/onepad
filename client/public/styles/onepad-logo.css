@@ -1,0 +1,51 @@
+.onepad {
+    perspective: 500px;
+    height: 140px;
+    width: 130px;
+    transform: scale(0.2);
+}
+
+.onepad .button {
+    position: absolute;
+    top: 0;
+    height: 140px;
+    width: 130px;
+    cursor: pointer;
+    border-radius: 20px 20px 30px 30px;
+    text-align: center;
+    color: #fff;
+    background: #89c7d7;
+    box-shadow: 0 8px #4f8491;
+    transform: rotateX(50deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    transition: all 0.2s;
+}
+
+.onepad .button:hover {
+    background: #80c0d1;
+}
+
+.onepad h1 {
+    margin-top: 30px;
+    margin-left: -2px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 58px;
+    line-height: 1em;
+    color: #242424;
+    text-shadow: 0 3px 0 #25606f;
+}
+
+.onepad h1 .pad-label {
+    font-size: 78px;
+    letter-spacing: -6px;
+    display: block;
+    margin-left: -3px;
+}
+
+.onepad h1 .pad-label span {
+    letter-spacing: -2px;
+}
